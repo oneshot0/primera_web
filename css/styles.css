@@ -35,3 +35,53 @@ header {
     border: 2px solid white;
 }
 
+/* Acá están los estilos del hero  */ 
+
+#hero {
+    position: relative;/* Sirve para posicionar a mmi hero en RELATIVO para que no inicie desde el header  */
+}
+
+#hero #computadora {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .informacion-contenedor {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Translada al elemento a como yo le quiera decir  */
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 0 50px;
+    display: flex;
+}
+
+#hero .informacion-contenedor #foto {
+    width: 150px;
+    height: 200px;
+
+}
+
+#hero .informacion-contenedor #foto img{
+    border-radius: 100%;
+    border: 3px solid white;
+    
+}
+
+#hero .informacion-contenedor .informacion {
+    margin-left: 70px;
+    font-weight: bold ;
+}
+
+#hero .informacion-contenedor .informacion span {
+    display: inline-block;
+    color: aqua;
+    margin-bottom: 70px;
+    
+}
+
+/*  Estilos del main */
+
+
+
